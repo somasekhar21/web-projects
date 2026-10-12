@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Sissor Game</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">Rock Paper Sissor Game</div>
+    </header>
+    <main>
+
+        <div class="choices">
+            <div id="rock"><img src="./src/assets/images/rock.png" alt="rock"></div>
+            <div id="paper"><img src="./src/assets/images/paper.png" alt="paper"></div>
+            <div id="scissors"><img src="./src/assets/images/scissors.png" alt="scissors"></div>
+        </div>
+
+        <div class="results">
+            <div class="player-score">Player Score: <span id="player">0</span></div>
+            <div class="computer-score">Computer Score: <span id = 'computer'>0</span></div>
+           
+        </div>
+
+        <div class="message">play your move </div>
+    
+        <div class="reset-button">
+            <button id="btn1">Reset Score</button>
+        </div>
+            
+        
+    </main>
+    <footer>
+        <div class="footer-text">
+            <div class="author"><p>Developed by @somasekhar</p></div>
+            <div class="contact"><p>Contact: mutthinnisomasekhar@gmail.com</p></div>
+        </div>
+
+    </footer>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
